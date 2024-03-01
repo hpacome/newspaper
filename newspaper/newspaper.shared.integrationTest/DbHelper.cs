@@ -5,7 +5,7 @@ namespace newspaper.shared.integrationTest;
 
 public static class DbHelper
 {
-    public static string ConnectionString = "Server=localhost;Port=5432;Database=newspaper;User Id=postgres;Password=P@c0me2022;";
+    public static string ConnectionString = "";
 
     public static void InitDB(IDbConnection dbConnection, IEnumerable<string> sqlScript)
     {
